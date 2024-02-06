@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
+:root {
+  --bg: #191919;
+  --invert: 1;
+  --theme-amount: 1;
+  --cw: #e1e1e1;
+  --gray: #9e9e9c;
+  --pattern: transparent;
+  --light-gray: #444;
+  --lighter-gray: #222;
+  --article-color: #c6c6c6;
+  --header-bg: rgba(19, 20, 21, 0.8);
+  --token: #999;
+  --border-color: #14202b;
+  --button-index: #091521;
+  --mark: #080f18;
+  --sidebar-tag: #13283e;
+  --sidebar-cta: #3f566e;
+  --gray-alpha: #07121dd4;
+  --timeline: #ffffff5e;
+  --nav-link: rgba(255, 255, 255, 0.8);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  min-width: 540px;
+  width: 100vw!important;
+}
+
+body {
+  font-family: 'SUIT-Regular',-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg);
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+}
+
+a , h1, h2, h3, h4, h5, h6, p, span, li {
+  color: #ecf0f1;
+
+}
+
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cw);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
