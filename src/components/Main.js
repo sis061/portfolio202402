@@ -158,7 +158,7 @@ export const Main = () => {
             </li>
             <li className="Resume" onClick={() => {}}>
               <a
-                href="https://drive.google.com/file/d/180WAC-x-1eqMyMbK_L2wjtRYyqBQ81UP/view?usp=sharing"
+                href="https://drive.google.com/file/d/1XCu6oRjgErpAFtYp5gjP40ONMdt7WHyX/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{textDecoration:"none"}}
@@ -304,7 +304,7 @@ export const Main = () => {
                         sis061@naver.com
                       </p>
                     </a>
-                    {/* <a
+                    <a
                       className="circle-logo"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -315,8 +315,8 @@ export const Main = () => {
                         size="xs"
                         style={{ color: "d6d6d6", marginRight: "0.5rem" }}
                       />
-                      <p>https://velog.io/@sis061/</p>
-                    </a> */}
+                      <p>https://velog.io/@sis061</p>
+                    </a>
                     <a
                       className="circle-logo"
                       target="_blank"
