@@ -346,9 +346,9 @@ export const Main = () => {
                       <img src="/img/html5-logo.png" alt="" />
                       <img src="/img/css3-logo.png" alt="" />
                       <img src="/img/react-logo.png" alt="" />
-                      <img src="/img/nodejs-logo.png" alt="" />
+                      {/* <img src="/img/nodejs-logo.png" alt="" /> */}
                       <img src="/img/jquery-logo.png" alt="" />
-                      <img src="/img/ts-logo-512.png" alt="" />
+                      {/* <img src="/img/ts-logo-512.png" alt="" /> */}
                       <img src="/img/styledComponent-logo.png" alt="" />
                     </div>
                   </div>
