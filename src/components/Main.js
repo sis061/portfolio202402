@@ -158,7 +158,7 @@ export const Main = () => {
             </li>
             <li className="Resume" onClick={() => {}}>
               <a
-                href="https://drive.google.com/file/d/1XCu6oRjgErpAFtYp5gjP40ONMdt7WHyX/view?usp=sharing"
+                href="https://drive.google.com/file/d/1CUkFXf284nIFb8giqVHpk9ypHqJYrQhA/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{textDecoration:"none"}}
